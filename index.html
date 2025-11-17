@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Main CSS file -->
+  <link rel="stylesheet" href="style.css" />
+  <title>Sabarivasan</title>
+</head>
+
+<body>
+  <!-- Header Section with navigation -->
+  <header>
+    <div class="container">
+      <nav>
+        <!-- Logo -->
+        <div class="logo">
+          <a href="#"><span>Sabarivasan</span> S</a>
+        </div>
+
+        <!-- Navigation menu and dark mode toggle -->
+        <div class="list-darkmode-menu">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <!-- Dark/Light mode toggle -->
+          <label class="mode">
+            <input type="checkbox" checked="checked" id="darkModeButton" />
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+          </label>
+
+          <!-- Hamburger menu for mobile -->
+          <button class="hamburger">
+            <div class="bar"></div>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="container">
+      <div class="home-info">
+        <!-- Left side: introduction and social links -->
+        <div class="left">
+          <h3>Hello..!,I'm</h3>
+          <h1>Sabarivasan S</h1>
+          <h4>And I'm a <span class="multiple"></span></h4>
+          <p>
+            Hi, I'm Sabarivasan S, a passionate front-end developer
+            dedicated to creating visually appealing, performance-driven,
+            and intuitive websites using HTML, CSS, and JavaScript.
+          </p>
+          <!-- Social media links -->
+          <div class="social">
+            <a href="https://www.linkedin.com/in/sabari-vasan-s-ab5381230/?trk=opento_sprofile_goalscard"
+              target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/devilsabari" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://wa.me/916374330233" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/devil_sabari?igsh=MTA1MDF2ZzIwY2Fndw==" target="_blank"><i
+                class="fa-brands fa-instagram"></i></a>
+          </div>
+          <!-- Download CV button -->
+          <div class="btn">
+            <a href="Resume.pdf" download>
+              <button>Download CV</button>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right side: profile image -->
+        <div class="right">
+          <div class="profile">
+            <img src="Sabari.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+ <section id="about" class="about">
+  <div class="container">
+    <div class="about-wrapper">
+      <!-- Left: About image -->
+      <div class="about-left">
+        <div class="about-img">
+          <img src="Sabari.png" alt="">
+        </div>
+      </div>
+
+      <!-- Right: About info -->
+      <div class="about-right">
+        <div class="about-info">
+          <h2>About <span>Me</span></h2>
+          <h3>Master Of Computer Applications</h3>
+          <p>
+            I am Sabarivasan S, from Dharmapuri, Tamil Nadu, India. I am currently pursuing my 
+            postgraduate degree (MCA) at Karpagam Academy of Higher Education with a CGPA of 6.9.
+            
+            I completed my undergraduate degree (BCA) at Sona College of Arts and Science with 
+            a CGPA of 7.3. Prior to that, I completed my schooling at Sri Saraswathi Vidhyalaya 
+            Higher Secondary School, with a percentage of 60.83%. 
+            <br><br>
+            <!-- Additional info hidden initially -->
+            <span class="more-text">
+              My technical skills include HTML, CSS, JavaScript, Java, and Python. I am good at working in a team, leading others, and 
+              am self-motivated.
+              <br><br>
+              My short-term goal is to secure a position in a reputed company, and 
+              my long-term goal is to grow and become a respected professional. 
+              <br><br>
+              As for my hobbies, I enjoy listening to music and playing outdoor games.
+            </span>
+          </p>
+          <!-- Read more button -->
+          <button id="readMoreBtn">Read More</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2 class="section-title">My <span>Skills</span></h2>
+
+      <div class="skills-wrapper">
+
+        <!-- Left: Technical Skills with progress bars -->
+        <div class="skills-left">
+          <h3><i><u>Technical Skills</u></i></h3>
+          <div class="skill">
+            <span>Front-end</span>
+            <div class="progress-bar">
+              <div class="progress" data-percent="85"></div>
+            </div>
+            <span class="value">85%</span>
+          </div>
+          <div class="skill">
+            <span>Backend</span>
+            <div class="progress-bar">
+              <div class="progress" data-percent="80"></div>
+            </div>
+            <span class="value">80%</span>
+          </div>
+          <div class="skill">
+            <span>C</span>
+            <div class="progress-bar">
+              <div class="progress" data-percent="75"></div>
+            </div>
+            <span class="value">75%</span>
+          </div>
+          <div class="skill">
+            <span>Python</span>
+            <div class="progress-bar">
+              <div class="progress" data-percent="70"></div>
+            </div>
+            <span class="value">70%</span>
+          </div>
+          <div class="skill">
+            <span>Java</span>
+            <div class="progress-bar">
+              <div class="progress" data-percent="60"></div>
+            </div>
+            <span class="value">60%</span>
+          </div>
+        </div>
+
+        <!-- Right: Professional Skills with circular progress -->
+        <div class="skills-right">
+          <h3><i><u>Professional Skills</u></i></h3>
+
+          <div class="circle-wrapper">
+
+            <!-- Individual circle skill -->
+            <div class="circle" data-percent="95">
+              <svg>
+                <defs>
+                  <linearGradient id="circleGradient1" gradientTransform="rotate(90)">
+                    <stop offset="0%" stop-color="#d3e200" />
+                    <stop offset="100%" stop-color="#800080" />
+                  </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke="url(#circleGradient1)"></circle>
+              </svg>
+              <div class="number">
+                <h2>95<span>%</span></h2>
+              </div>
+              <p>Team Work</p>
+            </div>
+
+            <div class="circle" data-percent="90">
+              <svg>
+                <defs>
+                  <linearGradient id="circleGradient2" gradientTransform="rotate(90)">
+                    <stop offset="0%" stop-color="#d3e200" />
+                    <stop offset="100%" stop-color="#800080" />
+                  </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke="url(#circleGradient2)"></circle>
+              </svg>
+              <div class="number">
+                <h2>90<span>%</span></h2>
+              </div>
+              <p>Leadership</p>
+            </div>
+
+            <div class="circle" data-percent="90">
+              <svg>
+                <defs>
+                  <linearGradient id="circleGradient3" gradientTransform="rotate(90)">
+                    <stop offset="0%" stop-color="#d3e200" />
+                    <stop offset="100%" stop-color="#800080" />
+                  </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke="url(#circleGradient3)"></circle>
+              </svg>
+              <div class="number">
+                <h2>90<span>%</span></h2>
+              </div>
+              <p>Optimization</p>
+            </div>
+
+            <div class="circle" data-percent="99.9">
+              <svg>
+                <defs>
+                  <linearGradient id="circleGradient4" gradientTransform="rotate(90)">
+                    <stop offset="0%" stop-color="#d3e200" />
+                    <stop offset="100%" stop-color="#800080" />
+                  </linearGradient>
+                </defs>
+                <circle cx="80" cy="80" r="70" stroke="url(#circleGradient4)"></circle>
+              </svg>
+              <div class="number">
+                <h2>99.9<span>%</span></h2>
+              </div>
+              <p>Willingness to learn</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">My <span>Education</span></h2>
+
+      <div class="education-wrapper">
+        <!-- SSLC -->
+        <div class="edu-card" data-aos="fade-right">
+          <h3>Secondary School Leaving Certificate</h3>
+          <p><strong>School:</strong> Sri Raam Vidyalaya Higher Secondary School</p>
+          <p><strong>Year:</strong> 2017</p>
+          <p><strong>Percentage:</strong> 70.4%</p>
+        </div>
+
+        <!-- HSC -->
+        <div class="edu-card" data-aos="fade-left">
+          <h3>Higher Secondary Certificate</h3>
+          <p><strong>School:</strong> Sri Saraswathi Vidhyalaya Higher Secondary School</p>
+          <p><strong>Year:</strong> 2019</p>
+          <p><strong>Percentage:</strong>60.83%</p>
+        </div>
+
+        <!-- UG -->
+        <div class="edu-card" data-aos="fade-right">
+          <h3>Undergraduate (Bachelor of Computer Applications)</h3>
+          <p><strong>College:</strong> Sona College of Arts and Science</p>
+          <p><strong>Year:</strong> 2022</p>
+          <p><strong>CGPA:</strong> 7.3</p>
+        </div>
+
+        <!-- PG -->
+        <div class="edu-card" data-aos="fade-left">
+          <h3>Postgraduate (Master of Computer Applications)</h3>
+          <p><strong>College:</strong> Karpagam Academy of Higher Education</p>
+          <p><strong>Year:</strong> 2026</p>
+          <p><strong>CGPA:</strong> 7.6*</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2 class="section-title">Contact <span>Me</span></h2>
+
+    <div class="contact-wrapper">
+
+      <!-- Left: Contact Info -->
+      <div class="contact-info">
+        <h3>Let's Connect</h3>
+        <p class="description">
+          If you have any project in mind or just want to say hello, feel free to reach out!
+        </p>
+
+        <!-- Email -->
+        <div class="info-box">
+          <i class="fa-solid fa-envelope"></i>
+          <p>sabarivasanbca2020@gmail.com</p>
+        </div>
+
+        <!-- Phone -->
+        <div class="info-box">
+          <i class="fa-solid fa-phone"></i>
+          <p>+91 6374330233 <br>+91 9514712139</p>
+        </div>
+
+        <!-- Location -->
+        <div class="info-box">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Dharmapuri, India</p>
+        </div>
+
+        <!-- Social links -->
+        <div class="contact-social">
+          <a href="https://www.linkedin.com/in/sabari-vasan-s-ab5381230/?trk=opento_sprofile_goalscard"
+            target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/devilsabari" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+          <a href="https://wa.me/916374330233" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/devil_sabari?igsh=MTA1MDF2ZzIwY2Fndw==" target="_blank"><i
+              class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <!-- Right: Contact Form -->
+      <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+        <!-- WEB3FORMS ACCESS KEY -->
+        <input type="hidden" name="access_key" value="20f59c02-c700-411a-a30e-b850a797d0bd">
+        
+        <!-- Name input -->
+        <div class="input-box">
+          <input type="text" name="name" required />
+          <label>Your Name</label>
+        </div>
+
+        <!-- Email input -->
+        <div class="input-box">
+          <input type="email" name="email" required />
+          <label>Email Address</label>
+        </div>
+
+        <!-- Message textarea -->
+        <div class="input-box">
+          <textarea name="message" required></textarea>
+          <label>Your Message</label>
+        </div>
+
+        <!-- Submit button -->
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- Typed.js library for animated text -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <!-- Main JavaScript file -->
+  <script src="main.js"></script>
+</body>
+
+</html>
